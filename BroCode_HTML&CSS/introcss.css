@@ -1,0 +1,28 @@
+/*
+# - use for id:
+. - use for class
+*/
+
+#p1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#p3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.odd {
+    font-size: small;
+}
+
+.even{
+    font-size: large;
+}

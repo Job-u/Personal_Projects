@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+
+#box1{
+    background-color: hsl(0, 67%, 56%);
+    margin: auto; /* adjust to center */
+}
+
+#box2{
+    background-color: hwb(240 39% 7%);
+    margin-top: 50px; /* adjust 50 px of margin to top */
+}
+
+#box3{
+    background-color: rgb(123, 230, 238);
+    margin-left: auto; /* auto adjust to left corner even when resizing */
+}
+
+#box4{
+    background-color: rgb(206, 114, 183);
+    margin-top: 3em;
+    margin-left: 500px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+<!--Style is use for css-->
+<body>
+    
+<a href="videos.html" target="_blank">
+    <button style="font-size: 25px; background-color: grey; color: aquamarine; border-radius: 25px;" >Click me to watch a clip</button>
+</a>
+
+<br>
+<br>
+
+    <button onclick="doSomething()" style="font-size: 25px; background-color: grey; color: aquamarine; border-radius: 25px;" >Click  to interact with javascript</button>
+
+
+<p id="greet">Whats Up?</p>
+
+<!--Script is use for js-->
+<script>
+    function doSomething(){
+        document.getElementById("greet").innerHTML = "Im fine bro";
+    }
+
+
+</script>
+</body>
+
+</html>

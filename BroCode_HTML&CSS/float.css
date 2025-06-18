@@ -1,0 +1,16 @@
+#image1{
+    float: right;
+    margin-left: 50px;
+}
+
+#image2{
+    float: left;
+    margin-right: 50px;
+}
+
+body{
+    border: 10px, solid, rgb(138, 138, 235);
+    border-radius: 1em;
+    display: flow-root; /* for the float not to overflow outside the border */
+
+}

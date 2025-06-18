@@ -1,0 +1,27 @@
+#box1{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}
+
+#box2{
+    border: 2px solid;
+    height: 75px;
+    overflow: hidden;
+
+}
+
+#box3{
+    border: 2px solid;
+    height: 75px;
+    overflow: visible;
+
+}
+
+#box4{
+    border: 2px solid;
+    height: 75px;
+    overflow: clip;
+    overflow-clip-margin: 13px;
+
+}
